@@ -46,8 +46,28 @@ echo round($sum, 2);
 ?>
 
 <?php
-echo "<br\n>";
+echo "<br\n>";// for
 for ($i = 1; $i <= 10; $i++) {
     echo $i;
     echo "<br\n>";
 }
+?>
+
+<?php
+echo "<br\n>"; //while
+$i = 1;
+while ($i <= 10) {
+    echo $i;
+    echo "<br\n>";
+    $i++;
+}
+?>
+
+<?php
+echo "<br\n>";// do while
+$i = 1;
+do {
+    echo $i;
+    echo "<br\n>";
+    $i++;
+} while ($i <= 10);
