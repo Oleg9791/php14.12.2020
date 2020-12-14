@@ -13,7 +13,7 @@ echo round($sum, 2); // оператор for
 ?>
 
 <?php
-echo "<br\n>";
+echo "<br\n>"; //предусловие
 $many = 1000;
 $percent = 1.5;
 $months = 12;
@@ -31,7 +31,7 @@ echo round($sum, 2);
 
 <?php
 
-echo "<br\n>";
+echo "<br\n>"; //постусловие
 $many = 1000;
 $percent = 1.5;
 $months = 12;
@@ -43,3 +43,11 @@ do {
     echo "monts=" . $i . "Sum=" . $sum . "<br>";
 } while ($i <= $months);
 echo round($sum, 2);
+?>
+
+<?php
+echo "<br\n>";
+for ($i = 1; $i <= 10; $i++) {
+    echo $i;
+    echo "<br\n>";
+}
